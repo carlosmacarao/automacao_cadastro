@@ -12,11 +12,11 @@ pyautogui.write(url_formulario)
 time.sleep(1)
 pyautogui.press('enter')
 
-#time.sleep(1)
+time.sleep(1)
 #pyautogui.press('tab')
 #pyautogui.press('tab')
 
-#time.sleep(0.5)
+time.sleep(0.5)
 pyautogui.write("Carlos")
 pyautogui.press('tab')
 
@@ -27,3 +27,5 @@ pyautogui.press('tab')
 time.sleep(0.5)
 pyautogui.write("Programador")
 pyautogui.press('tab')
+
+pyautogui.press('enter')

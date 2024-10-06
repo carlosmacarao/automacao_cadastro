@@ -14,7 +14,7 @@ pyautogui.press('enter')
 
 time.sleep(1)
 #pyautogui.press('tab')
-#pyautogui.press('tab')
+pyautogui.press('tab')
 
 time.sleep(0.5)
 pyautogui.write("Carlos")
